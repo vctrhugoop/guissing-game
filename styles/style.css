@@ -22,6 +22,10 @@ h1 {
   font-size: 2.4rem;
 }
 
+p {
+  color: rgba(52, 53, 91, 0.8);
+}
+
 input,
 button {
   border: none;
@@ -42,7 +46,7 @@ input[type=number] {
 
 input {
   padding: 1.6rem;
-  width: 5rem;
+  width: 4.8rem;
   background-color: #dce2e9;
 }
 
@@ -51,4 +55,46 @@ button {
   background: #7879f1;
   color: #fff;
   padding: 1.6rem;
+}
+
+.hide {
+  display: none;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(288deg, #c2e9fb 0%, #a1c4fd 100%);
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+body main {
+  max-width: 40rem;
+  width: 100%;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  padding: 4.8rem 6.4rem 6.4rem;
+}
+body main .screen-one h1 {
+  margin-bottom: 1.6rem;
+}
+body main .screen-one p {
+  margin-bottom: 4.8rem;
+}
+body main .screen-one form {
+  display: flex;
+  justify-content: center;
+}
+body main .screen-one form input {
+  border-radius: 4px 0px 0px 4px;
+}
+body main .screen-one form button {
+  border-radius: 0px 4px 4px 0px;
+}
+body main .screen-two h1 {
+  margin-bottom: 3.4rem;
+}
+body main .screen-two button {
+  border-radius: 4px;
 }/*# sourceMappingURL=style.css.map */
