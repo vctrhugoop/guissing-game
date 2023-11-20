@@ -1,1 +1,52 @@
 @use 'base';
+
+body {
+  height: 100vh;
+  background: linear-gradient(288deg, #c2e9fb 0%, #a1c4fd 100%);
+
+  display: grid;
+  place-items: center;
+  text-align: center;
+
+  main {
+    max-width: 40rem;
+    width: 100%;
+
+    border-radius: 6px;
+    background: #fff;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+
+    padding: 4.8rem 6.4rem 6.4rem;
+
+    .screen-one {
+      h1 {
+        margin-bottom: 1.6rem;
+      }
+      p {
+        margin-bottom: 4.8rem;
+      }
+
+      form {
+        display: flex;
+        justify-content: center;
+
+        input {
+          border-radius: 4px 0px 0px 4px;
+        }
+
+        button {
+          border-radius: 0px 4px 4px 0px;
+        }
+      }
+    }
+
+    .screen-two {
+      h1 {
+        margin-bottom: 3.4rem;
+      }
+      button {
+        border-radius: 4px;
+      }
+    }
+  }
+}
