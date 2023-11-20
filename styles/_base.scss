@@ -11,14 +11,14 @@
 body,
 input,
 button {
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 1.6rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 h1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 2.4rem;
 }
 
@@ -34,10 +34,8 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-input[type=number] {
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+input[type='number'] {
+  appearance: none;
 }
 
 input {
@@ -51,4 +49,4 @@ button {
   background: #7879f1;
   color: #fff;
   padding: 1.6rem;
-}/*# sourceMappingURL=style.css.map */
+}
